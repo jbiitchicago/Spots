@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/azure"
+    tools:context="com.tradeapps.vt.mapstest2.SwipeListActivity"
+    tools:showIn="@layout/activity_swipe_list">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azure">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img"
+            android:onClick="onQuit"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/exit"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/img1"
+            android:onClick="onGetHome"
+            android:src="@drawable/home"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/img2"
+            android:onClick="onMapViewSelection"
+            android:src="@drawable/gmaps"
+            />
+
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/analytics"
+        android:prompt="@string/analytics_prompt"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/button3"
+        style="?android:textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:text="GET INSIGHT!"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/cyan3"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+    </GridLayout>
+
+    <ListView
+        android:paddingTop="30dp"
+        android:background="@color/white"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

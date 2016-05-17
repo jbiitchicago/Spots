@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="white">#FFF</color>
+    <color name="cyan3">#00CDCD</color>
+    <color name="azure">#E0EEEE</color>
+    <color name="darkcyan">#53868B</color>
 </resources>

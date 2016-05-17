@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-
-    tools:context="com.tradeapps.vt.mapstest2.TimeRangeSelection">
+    tools:context="com.tradeapps.vt.mapstest2.SwipeListActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -22,7 +21,8 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_time_range_selection" />
+    <include layout="@layout/content_swipe_list" />
+
 
 
 </android.support.design.widget.CoordinatorLayout>

@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">Spots</string>
-    <string name="title_activity_maps">MapSpots</string>
-    <string name="title_activity_login">Login</string>
+    <string name="title_activity_maps">Spots Map Pins</string>
+    <string name="title_activity_login">Spots Login</string>
+    <string name="timeselection_prompt">Choose your card(s)....</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="prompt_pan">PAN</string>
+    <string name="prompt_pan">Unique Identification Number</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
@@ -16,5 +17,32 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="title_activity_time_range_selection">SELECT TIME RANGE</string>
+
+    <string name="title_activity_time_range_selection">Spots Home</string>
+    <string name="radioWeek">WEEK</string>
+    <string name="radioMonth">MONTH</string>
+    <string name="radioYear">YEAR</string>
+    <string name="radioBeginning">FROM THE BEGINNING</string>
+    <string name="buttonSubmitText">GO TO MY MAP </string>
+    <string name="title_activity_swipe_list">Spots Swipe List</string>
+    <string name="title_activity_maps_plot">Spots Map Pins</string>
+
+    <string-array name="analytics">
+        <item>GET HIGHEST SPENDING AREA NAME</item>
+        <item>GET TOTAL ATM WITHDRAWAL AMOUNT</item>
+        <item>GET TOTAL LOCAL SPENDING</item>
+        <item>GET TOTAL OUT-OF-CITY SPENDING</item>
+        <item>GET TOTAL INTERNATIONAL SPENDING</item>
+        <item>GET TOTAL SPENDING FOR THIS CARD</item>
+    </string-array>
+
+    <string name="analytics_prompt">KNOW YOUR SPENDING...</string>
+
+    <string-array name="cards">
+        <item>RBS Card1 - 4693 - XXXX - XXXX - 5312</item>
+        <item>RBS Card2 - 4691 - XXXX - XXXX - 7899</item>
+    </string-array>
+
+    <string name="cards_prompt">Choose your card(s)...</string>
+
 </resources>
