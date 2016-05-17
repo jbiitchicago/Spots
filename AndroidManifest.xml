@@ -63,7 +63,14 @@
         <activity
             android:name=".TimeRangeSelection"
             android:label="@string/title_activity_time_range_selection"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SwipeListActivity"
+            android:label="@string/title_activity_swipe_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MapsPlot"
+            android:label="@string/title_activity_maps_plot"></activity>
     </application>
 
 </manifest>
